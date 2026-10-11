@@ -1,0 +1,9 @@
+com\taquicardia\JakartaRestConfiguration.class
+com\taquicardia\dao\MesaDAO.class
+com\taquicardia\modelo\Mesa.class
+com\taquicardia\dao\PedidoDAO.class
+com\taquicardia\modelo\DetallePedido.class
+com\taquicardia\modelo\Pedido.class
+com\taquicardia\controlador\PedidoServlet.class
+com\taquicardia\dao\ConexionBD.class
+com\taquicardia\resources\JakartaEE10Resource.class
