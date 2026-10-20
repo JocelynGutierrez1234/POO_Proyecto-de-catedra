@@ -1,0 +1,10 @@
+<%@ page pageEncoding="UTF-8" %>
+<c:if test="${not empty mensajeExito}">
+    <div class="alert alert-success no-print" role="status">✅ <c:out value="${mensajeExito}"/></div>
+</c:if>
+<c:if test="${not empty mensajeAviso}">
+    <div class="alert alert-warning no-print" role="status">⚠️ <c:out value="${mensajeAviso}"/></div>
+</c:if>
+<c:if test="${not empty mensajeError}">
+    <div class="alert alert-danger no-print" role="alert">❌ <c:out value="${mensajeError}"/></div>
+</c:if>
