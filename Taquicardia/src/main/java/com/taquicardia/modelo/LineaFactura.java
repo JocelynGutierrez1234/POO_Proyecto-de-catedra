@@ -1,10 +1,13 @@
 package com.taquicardia.modelo;
 
+import java.io.Serializable;
 import java.math.BigDecimal;
 import java.math.RoundingMode;
 
 // Cada producto que sale en la cuenta/factura
-public class LineaFactura {
+public class LineaFactura implements Serializable {
+    private static final long serialVersionUID = 1L;
+
     private int idProducto;
     private String nombreProducto;
     private int cantidad;

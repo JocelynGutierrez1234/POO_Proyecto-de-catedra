@@ -1,9 +1,12 @@
 package com.taquicardia.modelo;
 
+import java.io.Serializable;
 import java.math.BigDecimal;
 import java.sql.Timestamp;
 
-public class Pago {
+public class Pago implements Serializable {
+    private static final long serialVersionUID = 1L;
+
     private int idPago;
     private int idFactura;
     private MetodoPago metodoPago;
