@@ -1,0 +1,8 @@
+target/
+nbproject/private/
+nb-configuration.xml
+*.war
+.idea/
+*.iml
+# Credenciales locales: NO subir
+src/main/resources/db.properties
