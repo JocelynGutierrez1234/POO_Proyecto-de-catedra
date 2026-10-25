@@ -1,0 +1,14 @@
+<%@ page pageEncoding="UTF-8" %>
+<nav class="navbar navbar-expand navbar-dark taq-navbar no-print" aria-label="Navegación principal">
+    <div class="container">
+        <a class="navbar-brand d-flex align-items-center" href="PedidoServlet?accion=listarMesas"><span class="brand-mark" aria-hidden="true">✦</span> TAQUICARDIA</a>
+        <div class="navbar-nav flex-row flex-wrap">
+            <a class="nav-link ${seccion == 'mesas' ? 'active fw-bold' : ''}" href="PedidoServlet?accion=listarMesas">Mesas</a>
+            <a class="nav-link ${seccion == 'cocina' ? 'active fw-bold' : ''}" href="PedidoServlet?accion=verCocina">Cocina</a>
+            <a class="nav-link ${seccion == 'menu' ? 'active fw-bold' : ''}" href="MenuServlet">Menú</a>
+            <a class="nav-link ${seccion == 'categorias' ? 'active fw-bold' : ''}" href="CategoriaServlet">Categorías</a>
+            <a class="nav-link ${seccion == 'caja' ? 'active fw-bold' : ''}" href="CajaServlet">Caja</a>
+            <a class="nav-link ${seccion == 'ventas' ? 'active fw-bold' : ''}" href="CajaServlet?accion=ventas">Ventas del día</a>
+        </div>
+    </div>
+</nav>
